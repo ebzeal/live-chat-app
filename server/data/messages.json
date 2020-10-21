@@ -23,5 +23,40 @@
     "id": "BkIJ0fTvw",
     "from": "bob",
     "text": "glad to be"
+  },
+  {
+    "id": "HJZ-c76PD",
+    "from": "alice",
+    "text": "ok!"
+  },
+  {
+    "id": "SkqW5mTDP",
+    "from": "alice",
+    "text": "ok!"
+  },
+  {
+    "id": "Byto97TDv",
+    "from": "bob",
+    "text": "I'm Bob"
+  },
+  {
+    "id": "rJmnq7pDv",
+    "from": "alice",
+    "text": "I'm Alice"
+  },
+  {
+    "id": "rk50omaPD",
+    "from": "alice",
+    "text": "Nice being here"
+  },
+  {
+    "id": "rJEen7aPw",
+    "from": "bob",
+    "text": "Welcome Alice"
+  },
+  {
+    "id": "Hyngn7Tww",
+    "from": "bob",
+    "text": "Wanna share?"
   }
 ]
