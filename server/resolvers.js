@@ -29,7 +29,11 @@ const Mutation = {
 
 const Subscription = {
   messageAdded: {
-    subscribe: () => pubSub.asyncIterator(MESSAGE_ADDED)
+    subscribe: (_root, _args, context) => {
+    // console.log("context", context)
+      requireAuth(context.userId)
+      return pubSub.asyncIterator(MESSAGE_ADDED)
+    }
   }
 }
 
