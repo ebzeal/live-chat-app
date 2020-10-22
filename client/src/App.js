@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ApolloProvider } from '@apollo/react-hooks';
+import { ApolloProvider } from '@apollo/client';
 import { getLoggedInUser, logout } from './auth';
 import client from './graphql/client';
 import Chat from './Chat';
